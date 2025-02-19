@@ -31,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
-     
+  local Tab2o = MakeTab({Name = "Script Farm ca"})   
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -45,3 +45,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end
   })
+  
+  AddButton(Tab2o, {
+     Name = "hack fisch(tiếng việt)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Basicallyybeta/YT_MinGaming/refs/heads/main/Minfishvietsub.lua"))()
